@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    font-family: "Hind Siliguri", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    cursor: default;
+}
+.navigation{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: white;
+    padding: 15px 15px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    gap: 100px;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 1px solid grey;
+}
+.notion-div{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.logo img{
+    display: flex;
+    height: 30px;
+    align-self: center;
+}
+.menu-bar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 15px;
+}
+.menu-bar .menu{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    /* font-size: 15px; */
+    /* font-family: "Lato", sans-serif; */
+}
+.menu-bar .menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.Log-in > .login-button{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+.Log-in > .login-button .menu-items .menu-links{
+    text-decoration: none;
+    /* color: black; */
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.notion-free{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    block-size: 30px;
+}
+.notion-free:hover{
+    background-color: rgb(69, 68, 68);
+}
+.request{
+    color: black;
+    font-weight: 505;
+    block-size: 30px;
+}
+.request:hover{
+    background-color: rgba(108, 108, 249, 0.075);
+    border-radius: 5px;
+}
+.none{
+    align-self: center;
+    background-color: rgb(225, 222, 222);
+    width: 1px;
+    height: 15px;
+}
+.menu-bar .menu a:hover{
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+    color: black;
+}
+.button{
+    display: flex;
+    gap: 10px;
+}
+.header-div1{
+    /* background-color: red; */
+    height: 100%;
+    width: 100%;
+    padding: 0 500px;
+    display: grid;
+    justify-content: center;
+}
+.generation-div{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.generation{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    align-items: start;
+    height: 390px;
+}
+.generation .sign-up{
+    padding: 12px 19px;
+    background-color: #0582ff;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.generation .sales{
+    padding: 12px 19px;
+    background-color: #b9dbfe5d;
+    color:  #0582ff;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.generation .sign-up:hover{
+    background-color: rgba(15, 83, 243, 0.92);
+}
+.generation .sales:hover{
+    background-color: rgba(207, 237, 252, 0.9);
+}
+.generation > h1{
+    line-height: 85%;
+    letter-spacing: -.01em;
+    font-size: 80.5px;
+    font-weight: 600;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+.generation > h2{
+    line-height: 120%;
+    font-size: 26px;
+    width: 90%;
+    color: black;
+    font-weight: 450;
+}
+.hero-section > video{
+    margin-top: 70px;
+    width: 570px;
+    height: auto;
+    object-fit: cover;
+}
+.netflix{
+    margin-top: 20px;
+    display: grid;
+    /* gap: 5px; */
+}
+span{
+    font-size: 17px;
+    color: rgb(114, 114, 114);
+    font-weight: 500;
+}
+.netflix > section{
+    display: flex;
+    width: 500px;
+    gap: 50px;
+    align-items: center;
+    align-content: center;
+}
+section > img{
+    width: 80px;
+    height: 30px;
+}
+.image-section{
+    /* background-color: red; */
+    display: grid;
+    gap: 20px;
+    height: 100%;
+    width: 100%;
+    margin-top: -65px;
+}
+.image-animation > img{
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgb(186, 185, 185);
+    width: 100%;
+    height: 100%;
+}
+.icons{
+    /* background-color: red; */
+    height: 50px;
+    padding: 0 0 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.icons-items{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(196, 196, 196);
+    background-color: white;
+    cursor: pointer;
+}
+.icons-items:hover{
+    background-color: rgba(128, 128, 128, 0.162);
+}
+.icons-items > p{
+    font-size: 17px;
+    font-weight: 547;
+}
+svg{
+    width: 23px;
+    height: 40px;
+}
+
+.header-div2{
+    height: 100%;
+    width: 100%;
+    padding: 0 500px;
+    display: grid;
+    /* gap: 10px;    */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.build-container{
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+.build-items{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: start;
+    width: 180px;
+    padding: 3px 0;
+    margin: 0;
+}
+.build-items > video{
+    height: 75px;
+    width: 85px;
+}
+.build-items > section > h4{
+    font-size: 19px;
+    font-weight: 600;
+}
+.build-items > section > span{
+    line-height: 130%;
+    font-size: 18.5px;
+    font-weight: 550;
+}
+.perfect-div{
+    display: flex;
+    width: 100%;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.perfect{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 450px;
+    align-items: start;
+}
+.perfect > h1{
+    line-height: 90%;
+    letter-spacing: -.05em;
+    font-size: 70px;
+    font-weight: 600;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+.perfect > h2{
+    line-height: 120%;
+    font-size: 19px;
+    width: 100%;
+    color: rgb(139, 139, 139);
+    font-weight: 500;
+}
+.netflix .explore{
+    margin-top: -15px;
+}
+.explore > span{
+    cursor: pointer;
+    font-size: 20px;
+    color: #0582ff;
+}
+.explore > span:hover{
+    text-decoration: underline;
+}
+.explore .bi-arrow-right{
+    color: #0582ff;
+}
+.write-screen{
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+   
+}
+.write-screen > video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+    box-shadow: 0 0 1px grey;
+}
+.replaces{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.replaces > ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.replaces-icon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.everything-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    height: 100vh;
+    position: relative;
+}
+.your-ai{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    transform: rotate(-3deg);
+    background-color: rgba(86, 86, 88, 0.053);
+    width: 600px;
+    height: 220px;
+    position: relative;
+}
+.your-ai > div > h3{
+    font-size: 45px;
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+}
+.pin-div{
+    background-image: url(assets/notion-pin.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60px;
+    background-position-y: -10px;
+    position: absolute;
+    top: -45px;
+    z-index: -1px;
+    width: 60px;
+    height: 70px;
+}
+.start{
+    height: 100%;
+    width: 100%;
+    padding: 0 500px;
+    display: grid;
+    gap: 30px;   
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.template-div{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    /* height: 300px; */
+}
+.template > h1{
+    align-self: start;
+    width: 600px;
+    line-height: 90%;
+    letter-spacing: -.05em;
+    font-size: 70px;
+    font-weight: 600;
+    color: black;
+    margin: 0;
+    padding: 0 0 5px 0;
+}
+.grid-container{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    gap: 25px;
+    grid-template-columns: repeat(4, 250px);
+}
+.grid-items{
+    padding: 35px;
+    background-color: rgba(187, 187, 247, 0.153);
+    height: 157px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.grid-items:hover{
+    background-color: rgba(128, 128, 128, 0.112);
+}
+.item1{
+    /* background-image: url(assets/notion-wiki-template.webp); */
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    height: 100%;
+    grid-row: 1/4;
+    grid-column: 1/3;
+    position: relative;
+}
+.holder-div{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    /* background-color: rgb(57, 57, 131); */
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -.05em;
+}
+.step{
+    width: 89%;
+    right: 1px;
+    height: 55%;
+    position: absolute;
+    top: 192px;
+    bottom: 1px;
+    background-color:#fcfcfc;
+    border-radius: 10px 0 0 0;
+    box-shadow: 0 0 2px rgb(177, 176, 176);
+}
+.steps{
+    width: 91%;
+    top: 199px;
+    right: 1px;
+    bottom: 1px;
+    height: 55%;
+    position: absolute;
+    background-color: #fcfcfc;
+    border-radius: 10px 0 10px 0;
+    box-shadow: 0 0 2px rgb(177, 176, 176);
+}
+.step-img > img{
+    position: absolute;
+    top: 206px;
+    right: 1px;
+    bottom: 1px;
+    width: 93%;
+    height: 60%;
+    border-radius: 10px 0 20px 0;
+    box-shadow: 0 0 2px rgb(177, 176, 176);
+}
